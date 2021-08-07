@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: mediumturquoise;
+    color: #f9f9f9;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CounterNumber #counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5em; 
+    font-size: 10em;
+}
+
+button {
+    margin: 1em;
+    padding: 14px 24px;
+    border: 2px solid teal;
+    border-radius: 4px;
+    background: teal;
+    font-size: 1em;
+}
+
+i{
+    background: none;
+}
